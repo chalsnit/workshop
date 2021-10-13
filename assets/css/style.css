@@ -1414,10 +1414,12 @@ textarea {
 	font-weight: 600;
 	font-family: var(--font-nunito);
 	color: var(--color-secondary);
-	line-height: 1.8;
-	margin-top: 35px;
-	padding-right: 70px;
+	 line-height: 1.8; 
+	
+	margin-top: 35px; 
+	 padding-right: 70px; 
 }
+
 
 .hero-area-one::before {
 	content: "";
@@ -1476,9 +1478,23 @@ textarea {
 .hero-area-two .hero-content p {
 	font-size: 18px;
 	font-family: var(--font-nunito);
+	/* line-height: 1.8; */
+	max-width: 80%;
+	margin: 0 auto 0px;
+}
+.hero-area-two .hero-content .fi {
+	font-size: 18px;
+	font-family: var(--font-nunito);
 	line-height: 1.8;
 	max-width: 80%;
-	margin: 25px auto 30px;
+	margin: 0 auto 0px;
+}
+.hero-area-two .hero-content .se {
+	font-size: 18px;
+	font-family: var(--font-nunito);
+	line-height: 1.8;
+	max-width: 80%;
+	margin: 0 auto 30px;
 }
 
 .hero-area-two::before {
