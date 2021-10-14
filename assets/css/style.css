@@ -1469,7 +1469,11 @@ textarea {
 	margin-bottom: 32px;
 }
 
-
+.hero-area-two .hero-content .hero-title {
+	font-size: 60px;
+	letter-spacing: -2px;
+	line-height: 1.07;
+}
 
 .hero-area-two .hero-content p {
 	font-size: 18px;
